@@ -8,3 +8,7 @@ He also provided an overview of VSCode extensions
 Due to issues with my laptop the examples had to be completed after the meeting, but this did not cause any issues.
 Later Alex displayed the use of GitPages, however, there were issues with this area when I applied it locally.
 Also, following the introduction of extenstions in VSCode issues/messages were intorduced in VSCode regarding Git rather than GitHub. 
+Questions also arose relating to the branch not appearing in VSCode.
+Line 11 was reflected in the local version of GitHub but not in the browser version
+This issue identified as waiting for local commit to Main.
+Issues still in VSCode with messages regarding Git
