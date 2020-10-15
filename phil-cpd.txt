@@ -2,8 +2,9 @@ Module 1.3 Reflection
 
 // Your reflection goes here
 
-In today session we covered an introduction to the source control tool GitHub and using the IDE VSCode as a text editor.
 In todays session we covered an introduction to the source control tool GitHub and using the IDE VSCode as a text editor.
 Alex highlighted the importance of version control tools and the benefits of modern text editors.
 He also provided an overview of VSCode extensions
 Due to issues with my laptop the examples had to be completed after the meeting, but this did not cause any issues.
+Later Alex displayed the use of GitPages, however, there were issues with this area when I applied it locally.
+Also, following the introduction of extenstions in VSCode issues/messages were intorduced in VSCode regarding Git rather than GitHub. 
