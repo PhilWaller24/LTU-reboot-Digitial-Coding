@@ -1,18 +1,14 @@
-body {
-    background-color: rgb(255, 255, 240)5, 255, 240);
-}
-
 h1 {
-    color: red;
+    color: black;
 }
 
 h2 {
-    color: green;
+    color: blue;
 }
 
 p {
     color: black;
-    background-color: yellow;
+    background-color: white;
     font-family: Arial, sans-serif;
     font-size: 12px;
     font-size: 1.5em;
