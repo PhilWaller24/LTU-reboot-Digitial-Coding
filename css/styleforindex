@@ -6,14 +6,14 @@ h2 {
     color: blue;
 }
 
-p {
-    color: black;
+<p {
+    
     background-color: white;
     font-family: Arial, sans-serif;
     font-size: 12px;
     font-size: 1.5em;
     font-size: 100%
-}
+}>
 
 .smaller-image {
     width: 100px;
