@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: rgb(255, 255, 240)5, 255, 240);
 }
 
 h1 {
@@ -11,8 +11,8 @@ h2 {
 }
 
 p {
-    color: white;
-    background-color: white;
+    color: black;
+    background-color: yellow;
     font-family: Arial, sans-serif;
     font-size: 12px;
     font-size: 1.5em;
