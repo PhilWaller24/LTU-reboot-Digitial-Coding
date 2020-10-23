@@ -7,15 +7,14 @@ h2 {
 }
 
 <p {
-    
     background-color: white;
     font-family: Arial, sans-serif;
     font-size: 12px;
     font-size: 1.5em;
     font-size: 100%
-}>
+}
 
-.smaller-image {
+>.smaller-image {
     width: 100px;
 }
 
