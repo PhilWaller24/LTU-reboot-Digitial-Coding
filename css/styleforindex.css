@@ -6,7 +6,7 @@ h2 {
     color: blue;
 }
 
-<p {
+p {
     background-color: white;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -14,8 +14,8 @@ h2 {
     font-size: 100%
 }
 
->.smaller-image {
-    width: 100px;
+.smaller-image {
+    width: 800px;
 }
 
 ul li a strong {
