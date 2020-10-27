@@ -19,6 +19,12 @@ p {
     font-size: 100%
 }
 
+.align-right {
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+}
+
 .smaller-image {
     width: 100px;
 }
