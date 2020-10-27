@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: red;
 }
 
 h2 {
@@ -12,15 +12,15 @@ h2 {
 
 p {
     color: black;
-    background-color: white;
+    background-color: yellow;
     font-family: Arial, sans-serif;
     font-size: 12px;
     font-size: 1.5em;
-    font-size: 100%;
+    font-size: 100%
 }
 
 .highlight {
-    color: orange;
+    color: teal;
 }
 
 .align-right {
@@ -33,9 +33,12 @@ p {
     width: 100px;
 }
 
+ul li a strong {
+    color: purple;
+}
+
 #footer {
-    color: yellow;
-    background-color: blue;
+    property: value;
 }
 
 .warning {
