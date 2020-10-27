@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 255, 240)5, 255, 240);
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: black;
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-size: 1.5em;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.highlight {
+    color: teal;
+}
+
+.align-right {
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+}
+
+.smaller-image {
+    width: 100px;
+}
+
+ul li a strong {
+    color: purple;
+}
+
+#footer {
+    color: green;
+    background-color: red;
+}
+
+.warning {
+    color: red;
+}
