@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(255, 255, 240)5, 255, 240);
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: black;
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-size: 1.5em;
+    font-size: 100%
+}
+
+.highlight {
+    color: teal;
+}
+
+.align-right {
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+}
+
+.smaller-image {
+    width: 100px;
+}
+
+ul li a strong {
+    color: purple;
+}
+
+#footer {
+    property: value;
+}
+
+.warning {
+    color: red;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+
+/* unvisited link */
+
+a:visited {
+    color: #00FF00;
+}
+
+
+/* visited link */
+
+a:hover,
+a:focus {
+    color: #FF00FF;
+}
+
+
+/* mouse over or select with keyboard*/
+
+a:active {
+    color: #0000FF;
+}
+
+
+/* selected link */
