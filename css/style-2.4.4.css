@@ -1,0 +1,203 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: black;
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-size: 1.5em;
+    font-size: 100%;
+}
+
+#footer {
+    color: pink;
+}
+
+.highlight {
+    color: teal;
+}
+
+.align-right {
+    text-align: right;
+    color: purple;
+    font-weight: bold;
+}
+
+.smaller-image {
+    width: 100px;
+}
+
+ul li a strong {
+    color: orange;
+}
+
+.warning {
+    color: red;
+}
+
+.red-text {
+    color: red;
+}
+
+.silver-background {
+    background-color: silver;
+}
+
+.red-box {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+}
+
+.brown-box {
+    background-color: brown;
+    color: #fff;
+    padding: 20px;
+    margin: 15px;
+    width: 31%;
+    height: 50px;
+}
+
+.blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 15px;
+}
+
+.thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.thick-pink-border {
+    border-color: pink;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.relative {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    /*   left: 80px;
+    top: 20px;
+*/
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid green;
+}
+
+.top {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: yellow
+}
+
+.bottom {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    background-color: green
+}
+
+
+/*
+padding-top: 10px;
+
+padding: 10px 5px 3px 5px;
+
+A solid red border
+border: 1px solid #ff0000;
+A thick dotted black top border
+border-top: 4px dotted #000000;
+Two diﬀerent border styles
+border-top: 1px solid #ff0000;
+border-bottom: 4px dotted #000000;
+border-width: 10px;
+border-style: dashed;
+border-color: #666666;
+
+You can specify each property separately, or all three together.
+15 pixels on all sides
+margin: 15px;
+10 on top, 5 on right, 3 on bottom, 5 on left
+margin: 10px 5px 3px 5px;
+10 pixels on top
+margin-top: 10px
+
+CENTERED
+margin: auto;
+width: 300px;
+
+FLUSH-RIGHT
+margin-left: auto;
+margin-right: 5px;
+width: 300px;
+
+div.wrapper{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  <style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .brown-box {
+    background-color: brown;
+    color: #fff;
+    padding: 20px;
+    margin: 15px;
+    width: 31%
+    height: 50px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+</style>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+*/
