@@ -1,0 +1,17 @@
+.relative {
+    position: relative;
+    left: 80px;
+    top: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid green;
+}
+
+.absolute {
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid blue;
+}
