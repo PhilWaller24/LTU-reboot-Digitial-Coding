@@ -80,6 +80,8 @@
         border-width: 10px;
         border-style: dotted;
         color: black;
+        margin: 10px auto;
+        width: 80px;
     }
     
     div.wrapper {
