@@ -10,7 +10,7 @@ Display the tip amount in the output as well
 */
 var preTipTotal = 100;
 var tipPercentage = 7;
-var tip = tipPercentage / preTipTotal * 100
+var tip = tipPercentage / preTipTotal * 100;
 var total = preTipTotal + tip;
 var bonusChallenge = total.toFixed(2);
 
