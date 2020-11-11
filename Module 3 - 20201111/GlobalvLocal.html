@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var globalScope = 'i am global';
+
+        function scope() {
+
+            var localScope = 'i am local';
+
+            document.write('in function ' + globalScope);
+            document.write('in function ' + localScope);
+
+        }
+
+        document.write('out function ' + globalScope);
+
+        document.write('before function call')
+        scope();
+        document.write('out function ' + localScope);
+    </script>
+
+</body>
+
+</html>

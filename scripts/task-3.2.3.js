@@ -79,20 +79,25 @@ addOne(numberOfPuppies);
 
 function printFullName(firstName, surname) {
     fullName = firstName + ' ' + surname;
+    document.write('In the function 1 = ' + fullName);
 
-    document.write(fullName);
     return fullName;
+    document.write('Do NOT print ' + fullName);
 
 }
 firstName = 'Phil';
 surname = 'Waller';
 printFullName(firstName, surname);
-
+document.write('Outside the function = ' + fullName);
 document.write(' ');
 
 firstName = 'James';
 surname = 'Bond';
 printFullName(firstName, surname);
+
+document.write('In the function = ' + fullName);
+
+
 
 function square(num) {
     return num * num;
