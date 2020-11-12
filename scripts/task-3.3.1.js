@@ -61,6 +61,11 @@ function percentageCalculator(percentageProvided, amountProvided) {
     document.write('percentageAnswer = ' + percentageAnswer + '. ');
     document.write('Your percentageAnswer, is ' + percentageAnswer + '. ');
 
+    /* Luke's solution worked out the percentage value instead of the percentage
+
+    var percentageOf = ( number * percentage ) /100;
+    */
+
     return percentageAnswer;
 
 }
