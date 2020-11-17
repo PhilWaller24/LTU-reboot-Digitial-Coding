@@ -2,8 +2,15 @@ var myFavouriteRecipe = {
     recipeTitle: 'Spaghetti Bolgnese',
     servings: 4,
     ingredients: ['spaghetti', 'mince', 'tomatoes'],
-    directions: 'Boil water for 10 minutes...'
+    directions: 'Boil water for 10 minutes...',
+    letsCook: function(recipeDisplay) {
+        document.write("<br>");
+        document.write('I am hungry! Lets cook ...' + recipeDisplay);
+        document.write("<br>");
+    }
 }
+
+myFavouriteRecipe.letsCook(myFavouriteRecipe.recipeTitle);
 
 function describeRecipe(recipe) {
     document.write("<br>");
@@ -27,6 +34,55 @@ function describeRecipe(recipe) {
 describeRecipe(myFavouriteRecipe);
 
 
+
+var jolene = {
+    age: 21,
+    hairColor: 'Auburn',
+    talk: function() {
+        document.write("<br>");
+        document.write('Hello!');
+        document.write("<br>");
+    },
+    eat: function(food) {
+        document.write("<br>");
+        document.write('Yum, I love ' + food);
+        document.write("<br>");
+    }
+}
+
+jolene.talk();
+jolene.eat('pizza');
+
+/*
+var myFavouriteRecipe = {
+    recipeTitle: 'Spaghetti Bolgnese',
+    servings: 4,
+    ingredients: ['spaghetti', 'mince', 'tomatoes'],
+    directions: 'Boil water for 10 minutes...'
+}
+
+function describeRecipe(recipe) {
+    document.write("<br>");
+    document.write('My favourite recipe is ' + recipe.recipeTitle);
+    document.write("<br>");
+    document.write(recipe.servings + ' servings');
+    document.write("<br>");
+    document.write('Ingredients are - ');
+    document.write(' ' + recipe.ingredients);
+    document.write("<br>");
+
+    for (var i = 0; i < recipe.ingredients.length; i++) {
+        document.write(recipe.ingredients[i]);
+        document.write("<br>");
+    }
+    document.write('Directions - ' + recipe.directions);
+    document.write("<br>");
+    document.write("<br>");
+}
+
+describeRecipe(myFavouriteRecipe);
+*/
+document.write("<br>");
 var jolene = {
     age: 21,
     hairColor: 'Auburn',
@@ -117,18 +173,18 @@ myFavoriteThings.push('Dancing');
 
 document.write("<br>");
 // all times tables
-for (var x = 1; x <= 13; x++) {
+for (var x = 1; x <= 12; x++) {
     document.write(x + ' Times Table');
     document.write("<br>");
 
-    for (var i = 1; i <= 13; i++) {
+    for (var i = 1; i <= 12; i++) {
         document.write(i + ' * ' + x + ' = ' + i * x);
         document.write("<br>");
     }
 }
 
 // 7 times table
-for (var i = 1; i <= 13; i++) {
+for (var i = 1; i <= 12; i++) {
     document.write(i + ' * 7 = ' + i * 7);
     document.write("<br>");
 }

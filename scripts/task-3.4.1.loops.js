@@ -1,16 +1,16 @@
 // all times tables
-for (var x = 1; x <= 13; x++) {
+for (var x = 1; x <= 12; x++) {
     document.write(x + ' Times Table');
     document.write("<br>");
 
-    for (var i = 1; i <= 13; i++) {
+    for (var i = 1; i <= 12; i++) {
         document.write(i + ' * ' + x + ' = ' + i * x);
         document.write("<br>");
     }
 }
 
 // 7 times table
-for (var i = 1; i <= 13; i++) {
+for (var i = 1; i <= 12; i++) {
     document.write(i + ' * 7 = ' + i * 7);
     document.write("<br>");
 }
