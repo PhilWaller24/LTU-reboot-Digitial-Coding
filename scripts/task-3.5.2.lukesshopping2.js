@@ -80,25 +80,29 @@ function getTotalPrice(listOfNumbers) {
 }
 */
 
-function shoppingCartTotalPrice(arr) {
+function discountForFood(arr) {
 
     var totalPrice = 0;
 
     for (var index = 0; index < arr.length; index++) {
 
-        unitPrice = arr[index].price;
 
-        if (arr[index].type = 'Food') {
+        if (arr[index].type === 'Food') {
 
-            unitPrice = unitPrice * 0.8;
+            var discount = (arr[index].price * 20) / 100;
+
+            totalPrice = totalPrice + (arr[index].price - discount) * arr[index].quantity;
+
+        } else {
+
+            totalPrice = totalPrice + (arr[index].price * arr[index].quantity);
+
+
         }
 
-        totalPrice = totalPrice + (unitPrice * arr[index].quantity);
+        return totalPrice.toFixed(2);
 
     }
-
-    return totalPrice.toFixed(2);
-
 }
 
 
@@ -106,10 +110,6 @@ document.write("<br>");
 document.write("Shopping Cart");
 document.write("<br>");
 
-//document.write (shoppingCartTotalPrice(shoppingCart);
-
-var theTotalPrice = shoppingCartTotalPrice(shoppingCart);
-
-document.write("Total price with discount is " + theTotalPrice);
-
+document.write("Total price with discount is ");
+document.write(discountForFood(shoppingCart));
 document.write("<br>");
