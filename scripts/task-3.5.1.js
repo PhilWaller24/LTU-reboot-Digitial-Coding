@@ -40,6 +40,8 @@ function getMean(listOfNumbers) {
     var theMean = totalValue / numberOfNumbers;
     document.write("The mean is " + totalValue + " / " + numberOfNumbers + " = " + theMean);
     document.write("<br>");
+    document.write("The mean rounded is " + Math.round(theMean));
+    document.write("<br>");
     return theMean;
 }
 
@@ -60,12 +62,30 @@ function sortNumbers(listOfNumbers) {
 }
 
 // Calculate the Median
-// var medianPosition = sortedArray / 2;
-// var theMedian = sortedArray[medianPosition];
-// document.write("<br>");
-// document.write("*** The Median is " + sortedArray.length / 2);
+var medianPosition = sizeOfArray / 2;
+document.write("<br>");
+document.write("*** The Median poisition is " + medianPosition);
+var medianPositionRounded = Math.round(medianPosition);
+document.write("<br>");
+document.write("*** The Median poisition rounded is " + medianPositionRounded);
+document.write("<br>");
+var theMedian = newSortedArray[medianPositionRounded - 1];
+document.write("*** The Median is " + theMedian);
+document.write("<br>");
 
 // Calcuate the Mode
+// Loop round array maintaining a count of each value unless there is a function to count the number of values in the array
+// Build new Mode array to maintain counts
+var modeArray = [''];
+var newMode = newSortedArray[0];
+for (var i = 0; i <= sizeOfArray - 1; i++) {
+    newNumber = newSortedArray[i];
+    document.write("<br>");
+    document.write('Number ' + i + ' is ' + newNumber);
+    document.write(' and all values = ' + newSortedArray)
+    document.write("<br>");
+}
+document.write("<br>");
 
 
 
