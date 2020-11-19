@@ -11,6 +11,45 @@ var myFavouriteRecipe = {
 }
 
 myFavouriteRecipe.letsCook(myFavouriteRecipe.recipeTitle);
+//Could have looped around ingredients by
+//var ingredients = myFavouriteRecipe.ingredients;
+//
+// See Lukes code
+
+/*
+// let user = {        // an object
+//   name: 'Luke',     // Property name of name: Property Value of 'Luke'
+//   age: 36,
+//   "home town": 'London',
+// };
+
+var favouriteRecipe = {
+  recipeTitle: 'Spaghetti Bolognese',
+  servings: 6,
+  ingredients: [
+    '1 tbsp olive oil',
+    '500g beef mince',
+    'tomato sauce'
+  ],
+  directions: ['Make Bolognese sauce',"step 2", "step 3"],
+  letsCook: function() {
+    console.log("I'm hungry let's cook " + favouriteRecipe.recipeTitle );
+  }
+};
+
+var ingredients = favouriteRecipe.ingredients;
+
+for( var index = 0; index < ingredients.length; index++ ) {
+  
+  // console.log( ingredients[index] );
+  
+}
+
+// console.log( Object.keys(favouriteRecipe) );
+
+console.log( Object.entries(favouriteRecipe) );
+
+*/
 
 function describeRecipe(recipe) {
     document.write("<br>");
