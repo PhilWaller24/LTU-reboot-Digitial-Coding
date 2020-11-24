@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button>Click Me!</button>
+
+    <button2 id="myBtn">Click Me Too!</button2>
+
+
+    <script>
+        alert('button Click');
+
+
+        var button2 = document.getElementById("myBtn");
+
+        var sayHi = function(event) {
+            alert("Hi!");
+        };
+        button2.addEventListener("click", sayHi);
+    </script>
+
+
+
+</body>
+
+</html>
