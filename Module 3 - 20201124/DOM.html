@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <p>
+        text text
+    </p>
+
+    <p>
+        not yellow
+    </p>
+
+    <script>
+        var paragraph = document.querySelector('p');
+        paragraph.style.color = 'red';
+
+        /*
+        var paragraph = document.querySelectorAll('p');
+
+        paragraph.style.color = 'red';
+        */
+
+        for (var index = 0; index < paragraph.length; index++) {
+
+            paragraph[index].style.color = 'yellow';
+        }
+
+        // could use a foreach loop
+    </script>
+
+
+</body>
+
+</html>
