@@ -19,7 +19,7 @@
 
     <script>
         var paragraph = document.querySelector('p');
-        paragraph.style.color = 'red';
+        //paragraph.style.color = 'red';
 
         /*
         var paragraph = document.querySelectorAll('p');
@@ -33,6 +33,10 @@
         }
 
         // could use a foreach loop
+        paragraph.forEach(function(para) {
+
+            para.style.color = 'blue';
+        });
     </script>
 
 
