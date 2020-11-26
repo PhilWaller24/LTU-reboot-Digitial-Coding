@@ -1,7 +1,9 @@
 var btn = document.querySelector('button');
 
+
 btn.addEventListener('click', function(event) {
     alert('Button Clicked');
+
 
 
     var image1 = document.querySelector('img');
