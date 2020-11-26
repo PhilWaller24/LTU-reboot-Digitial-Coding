@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .smaller-image {
+            width: 100px;
+        }
+        
+        .thick-green-border {
+            border-color: green;
+            border-width: 10px;
+            border-style: solid;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <img class="smaller-image thick-green-border" src="https://images.pexels.com/photos/5552812/pexels-photo-5552812.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5552812.jpg&fm=jpg" alt="Image from Pexels" />
+
+    <script>
+        var image1 = document.querySelector('img');
+
+
+        image1.setAttribute('src', 'https://images.pexels.com/photos/5480691/pexels-photo-5480691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    </script>
+
+</body>
+
+</html>
