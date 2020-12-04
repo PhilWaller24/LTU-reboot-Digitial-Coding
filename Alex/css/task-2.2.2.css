@@ -1,0 +1,21 @@
+h1 {
+    color: purple;
+}
+
+h2 {
+    background-color: coral;
+    color: white;
+}
+
+h2 {
+    background-color: black;
+}
+
+li {
+    background-color: red;
+    color: white;
+}
+
+img {
+    max-width: 300px;
+}

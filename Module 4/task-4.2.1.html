@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Javascript task 4.2.1</h1>
+    </header>
+    <main>
+        <p>To view this task you will need to open the console in developer tools.</p>
+    </main>
+    <aside>
+    </aside>
+    <footer>
+        <p>&copy; 2020</p>
+    </footer>
+    <script>
+        //LOOP from 1 - 100
+        for (var counter = 1; counter <= 100; counter++) {
+            //IF number is multiple of 3 and 5
+            if (counter % 3 == 0 && counter % 5 == 0) {
+                //THEN output "fizzbuzz"
+                console.log('fizzbuzz');
+            }
+            //ELSE IF number is multiple of 5
+            else if (counter % 5 == 0) {
+                //THEN output "buzz"
+                console.log('buzz');
+            }
+            //ELSE IF number is multiple of 3
+            else if (counter % 3 == 0) {
+                //THEN output "fizz"
+                console.log('fizz')
+            }
+            //ELSE
+            else {
+                // output number as number
+                console.log(counter);
+            }
+        }
+    </script>
+</body>
+
+</html>

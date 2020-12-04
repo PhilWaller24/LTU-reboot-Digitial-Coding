@@ -1,0 +1,47 @@
+h1 {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+
+h2 {
+    background-color: coral;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+h2 {
+    background-color: black;
+}
+
+li {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 22px;
+}
+
+img {
+    max-width: 300px;
+}
+
+p em {
+    font-size: 40px;
+    color: pink;
+    background: black;
+}
+
+p strong {
+    font-size: 30px;
+    color: yellow;
+    background: blue;
+}
+
+ol li strong {
+    background: green;
+    color: black;
+}
