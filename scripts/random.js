@@ -1,6 +1,6 @@
 // Generate size of array
 document.write("<br>");
-var sizeOfArray = getRndInteger(1, 6);
+var sizeOfArray = getRndInteger(1, 12);
 document.write('Size of Array is ' + sizeOfArray);
 document.write("<br>");
 
